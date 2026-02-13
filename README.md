@@ -95,3 +95,72 @@ Any redistribution must retain:
 
 ## ⚠️ READ BEFORE USING
 
+
+
+
+
+---
+
+## 📊 MODE 4: GENERATE REPORT
+
+### **Description:**
+Generate professional reports from previous scans.
+
+### **Options:**
+- **TXT Format** - Detailed text report
+- **JSON Format** - Raw data export
+- **CSV Format** - Spreadsheet compatible
+
+### **Report Location:**
+All reports are saved in: `outputs/reports/`
+
+### **Filename Format:**
+`TCOSINT_<PHONE>_<TIMESTAMP>.txt`
+
+---
+
+## ⚙️ MODE 5: CONFIGURE TRUECALLER API
+
+### **Description:**
+Configure Truecaller API settings for enhanced data extraction.
+
+### **Demo Mode (Default):**
+- No configuration needed
+- Simulated data for educational purposes
+- Works immediately
+
+### **Advanced Configuration:**
+1. Obtain Truecaller API credentials
+2. Enter Install ID
+3. Enter Access Token
+4. Test connection
+
+---
+
+## 📚 MODE 6: VIEW SCAN HISTORY
+
+### **Description:**
+View and manage previously saved scan reports.
+
+### **Features:**
+- List all previous scans
+- View report details
+- Delete old reports
+- Export to different formats
+
+---
+
+## 🎯 COMMAND LINE ARGUMENTS
+
+```bash
+# Quick scan from terminal
+python tcosint.py --scan 01712345678
+
+# Bulk scan from file
+python tcosint.py --bulk numbers.txt
+
+# Export to JSON
+python tcosint.py --scan 01712345678 --format json
+
+# Help
+python tcosint.py --help
