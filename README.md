@@ -164,3 +164,38 @@ python tcosint.py --scan 01712345678 --format json
 
 # Help
 python tcosint.py --help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## 🔍 MODE 1: SINGLE NUMBER SCAN
+
+### **Description:**
+Comprehensive intelligence gathering on a single phone number.
+
+### **Step-by-Step:**
+
+1. Select `[1]` from main menu
+2. Enter Bangladesh phone number (e.g., `01712345678`)
+3. Wait for scan to complete (10-15 seconds)
+4. View detailed results on screen
+5. Choose to save report (`y/n`)
+
+### **Example Output:**
